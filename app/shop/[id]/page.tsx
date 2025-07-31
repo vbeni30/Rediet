@@ -71,7 +71,7 @@ export default function ItemPage({ params }: { params: { id: string } }) {
       "Depicts ancient trade route stories",
       "Celebrates harvest and abundance",
     ][Math.floor(Math.random() * 4)],
-    artisan: ["Master Tanaka Hiroshi", "Artisan Priya Sharma", "Craftsman Mehmet Özkan", "Weaver Fatima Al-Zahra"][
+    artisan: ["Rediet Haddis"][
       Math.floor(Math.random() * 4)
     ],
   }))
