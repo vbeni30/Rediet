@@ -46,7 +46,7 @@ export default function ItemPage({ params }: { params: { id: string } }) {
     price: "$280",
     image: "/placeholder.svg?height=800&width=640&text=Ethereal+Kimono",
     description:
-      "A flowing kimono that transforms with interchangeable panels, each representing different cultural narratives and memories. This piece explores the intersection of traditional Japanese garment construction with contemporary storytelling through textile art.",
+      "A flowing kimono that transforms with interchangeable panels, each representing different cultural narratives and memories. This piece explores the intersection of traditional garment construction with contemporary storytelling through textile art.",
     available: true,
     videoUrl: "https://drive.google.com/file/d/1234567890abcdef/preview", // Google Drive video embed URL
   }
@@ -62,7 +62,7 @@ export default function ItemPage({ params }: { params: { id: string } }) {
     price: `$${(Math.random() * 50 + 25).toFixed(0)}`,
     material: ["Silk", "Cotton", "Linen", "Hemp"][Math.floor(Math.random() * 4)],
     dimensions: '24" x 36"',
-    origin: ["Kyoto, Japan", "Varanasi, India", "Istanbul, Turkey", "Marrakech, Morocco"][
+    origin: ["Ethiopia", "Ethiopia", "Ethiopia", "Ethiopia"][
       Math.floor(Math.random() * 4)
     ],
     culturalSignificance: [
@@ -71,8 +71,7 @@ export default function ItemPage({ params }: { params: { id: string } }) {
       "Depicts ancient trade route stories",
       "Celebrates harvest and abundance",
     ][Math.floor(Math.random() * 4)],
-    artisan: ["Master Tanaka Hiroshi", "Artisan Priya Sharma", "Craftsman Mehmet Özkan", "Weaver Fatima Al-Zahra"][
-      Math.floor(Math.random() * 4)
+    artisan: ["Rediet Haddis", "Rediet Haddis", "Rediet Haddis", "Rediet Haddis
     ],
   }))
 
