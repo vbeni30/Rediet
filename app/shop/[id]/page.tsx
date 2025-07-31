@@ -188,7 +188,7 @@ export default function ItemPage({ params }: { params: { id: string } }) {
                 <div>
                   <p className={`font-medium ${isDark ? "text-white" : "text-black"}`}>Construction</p>
                   <p className={`${isDark ? "text-neutral-300" : "text-neutral-600"}`}>
-                    Hand-sewn with traditional Japanese techniques
+                    Hand-sewn with Modern techniques
                   </p>
                 </div>
                 <div>
@@ -203,7 +203,7 @@ export default function ItemPage({ params }: { params: { id: string } }) {
                 </div>
                 <div>
                   <p className={`font-medium ${isDark ? "text-white" : "text-black"}`}>Origin</p>
-                  <p className={`${isDark ? "text-neutral-300" : "text-neutral-600"}`}>Handcrafted in Kyoto, Japan</p>
+                  <p className={`${isDark ? "text-neutral-300" : "text-neutral-600"}`}>Handcrafted in Addis Ababa, Ethiopia</p>
                 </div>
               </div>
             </div>
